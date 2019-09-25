@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">IntroDUAL</string>
+
+    <string name="questionExample">Ejemplo de pregunta, sabes pulsar botones?</string>
+    <string name="buttonCorrect">Si</string>
+    <string name="buttonIncorrect">No</string>
 </resources>
