@@ -2,6 +2,30 @@
     <string name="app_name">IntroDUAL</string>
 
     <string name="questionExample">Ejemplo de pregunta, sabes pulsar botones?</string>
-    <string name="buttonCorrect">Si</string>
-    <string name="buttonIncorrect">No</string>
+    <string name="question1">question1</string>
+    <string name="answer1">true</string>
+    <string name="question2">question2</string>
+    <string name="answer2">true</string>
+    <string name="question3">question3</string>
+    <string name="answer3">false</string>
+    <string name="question4">question4</string>
+    <string name="answer4">true</string>
+    <string name="question5">question5</string>
+    <string name="answer5">false</string>
+    <string name="question6">question6</string>
+    <string name="answer6">true</string>
+    <string name="question7">question7</string>
+    <string name="answer7">false</string>
+    <string name="question8">question8</string>
+    <string name="answer8">false</string>
+    <string name="question9">question9</string>
+    <string name="answer9">false</string>
+    <string name="question10">question10</string>
+    <string name="answer10">true</string>
+
+    <string name="buttonTrue">Si</string>
+    <string name="buttonFalse">No</string>
+
+    <string name="resultCorrect">Correcto!</string>
+    <string name="resultIncorrect">Incorrecto&#8230;</string>
 </resources>

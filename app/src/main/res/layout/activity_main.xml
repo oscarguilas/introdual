@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonCorrect"
+        android:id="@+id/buttonTrue"
         android:layout_width="75dp"
         android:layout_height="35dp"
         android:layout_marginTop="40dp"
@@ -27,22 +27,24 @@
 
         android:layout_marginLeft="115dp"
         android:layout_marginStart="115dp"
-        android:text="@string/buttonCorrect"
+        android:text="@string/buttonTrue"
 
         android:onClick="optionSelect"
         />
     <Button
-        android:id="@+id/buttonIncorrect"
+        android:id="@+id/buttonFalse"
         android:layout_width="75dp"
         android:layout_height="35dp"
         android:layout_marginTop="40dp"
 
         app:layout_constraintTop_toBottomOf="@id/textQuestion"
-        app:layout_constraintLeft_toRightOf="@id/buttonCorrect"
+        app:layout_constraintLeft_toRightOf="@id/buttonTrue"
 
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
-        android:text="@string/buttonIncorrect"
+        android:text="@string/buttonFalse"
+
+        android:onClick="optionSelect"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
