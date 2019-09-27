@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class ResultsActivity extends AppCompatActivity {
@@ -26,5 +27,10 @@ public class ResultsActivity extends AppCompatActivity {
         } else if (!intent.getExtras().getBoolean("result")){
             resultsText.setText(getString(R.string.resultIncorrect));
         }
+    }
+
+    public void backToMain(View view){
+        //Intent intent = new Intent(this, MainActivity.class);
+        onBackPressed();
     }
 }

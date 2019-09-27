@@ -2,26 +2,33 @@
     <string name="app_name">IntroDUAL</string>
 
     <string name="questionExample">Ejemplo de pregunta, sabes pulsar botones?</string>
-    <string name="question1">question1</string>
-    <string name="answer1">true</string>
-    <string name="question2">question2</string>
-    <string name="answer2">true</string>
-    <string name="question3">question3</string>
-    <string name="answer3">false</string>
-    <string name="question4">question4</string>
-    <string name="answer4">true</string>
-    <string name="question5">question5</string>
-    <string name="answer5">false</string>
-    <string name="question6">question6</string>
-    <string name="answer6">true</string>
-    <string name="question7">question7</string>
-    <string name="answer7">false</string>
-    <string name="question8">question8</string>
-    <string name="answer8">false</string>
-    <string name="question9">question9</string>
-    <string name="answer9">false</string>
-    <string name="question10">question10</string>
-    <string name="answer10">true</string>
+
+
+    <string-array name="questions">
+        <item>question0</item>
+        <item>question1</item>
+        <item>question2</item>
+        <item>question3</item>
+        <item>question4</item>
+        <item>question5</item>
+        <item>question6</item>
+        <item>question7</item>
+        <item>question8</item>
+        <item>question9</item>
+    </string-array>
+
+    <string-array name="answers">
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
 
     <string name="buttonTrue">Si</string>
     <string name="buttonFalse">No</string>
