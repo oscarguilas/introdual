@@ -78,6 +78,11 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 Log.i("getNewQuestion", "All questions have already been shown");
             }
+        } else {
+            shownQuestions.add(i);
+
+            questionText.setText(getResources().getStringArray(R.array.questions)[i]);
+            correctAnswer = Boolean.valueOf(getResources().getStringArray(R.array.answers)[i]);
         }
 
 
